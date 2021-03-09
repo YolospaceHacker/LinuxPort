@@ -1,5 +1,7 @@
 # Yolospace Hacker Linux Port
-Lab for testing YoloSpaceHacker Linux port
+Prepare YoloSpaceHacker Linux port
+Build some CSharp Apps.
+Test wine and steam proton commands and config.
 
 
 # Setup Lab  
