@@ -14,8 +14,6 @@ Visual Studio
 
 ## Linux 
 Distro: ubuntu
-We have choice between Wine or Steam
-
 
 
 ### Linux + Steam 
@@ -24,9 +22,12 @@ Steam rely on Proton an optimised version of wine
 
 install ubuntu
 install steam
-sudo apr install steam
+sudo apt install steam
 
-Launch Steam then enable beta 
+Launch Steam /parameters / enable proton 
+
+
+
 $ mkdir ~/.proton
 $ STEAM_COMPAT_DATA_PATH=~/.proton/ ~/.steam/steam/steamapps/common/Proton\ -\ Experimental/proton run .steam/debian-installation/steamapps/common/Yolo\ Space\ Hacker\ -\ Mission\ Bikini/bin/HackOut.exe
 
@@ -49,6 +50,8 @@ File name: 'CefSharp.Core, Version=86.0.240.0, Culture=neutral, PublicKeyToken=4
 
 => or one of its dependencies.
 Precharger les dll dans le jeu...
+
+
 
 ### Linux + wine 
 
